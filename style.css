@@ -1,0 +1,31 @@
+body {
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-size: 1.25em;
+  width: 90%;
+}
+
+h1 {
+  /*background-color: grey;*/
+  color: orange;
+}
+
+input {
+  width: 45%;
+  font-size: 0.75em;
+}
+
+.categories {
+  font-size: 1em;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+#search {
+  font-size: 0.75em;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}

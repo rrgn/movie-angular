@@ -1,0 +1,11 @@
+<h1>Mow-Vees</h1>
+<!-- <button class="categories">Popular</button>
+<button class="categories">Top Rated</button>
+<button class="categories">Upcoming</button>
+<button class="categories">Now Playing</button><br> -->
+<br>
+<input type="text"><button id="search">Search</button><br>
+<br>
+<a ng-repeat="result in data.results" href="#{{result.id}}">
+  <img ng-src='http://image.tmdb.org/t/p/w342/{{result.poster_path}}'>
+</a>
